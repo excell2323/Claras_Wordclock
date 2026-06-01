@@ -1,0 +1,20 @@
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+*.token
+
+# Local toolchains and generated outputs
+.espressif/
+esp-idf/
+esp-idf-v*/
+build/
+managed_components/
+sdkconfig.old
+
+# Python local state
+.venv/
+.venv-*/
+__pycache__/
+*.pyc
